@@ -4,8 +4,8 @@ root: '.'
 output: 'src/pages'
 ignore: ['.']
 questions:
-dir: 'ディレクトリ名を入力して下さい ex( example/dir )'
-name: 'ページ名を入力して下さい  ex( ExamplePage )'
+  dir: 'ディレクトリ名を入力して下さい ex( example/dir )'
+  name: 'ページ名を入力して下さい  ex( ExamplePage )'
 ---
 
 # `{{ inputs.dir }}/index.page.tsx`

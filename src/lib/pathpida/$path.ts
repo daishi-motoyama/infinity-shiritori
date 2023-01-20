@@ -1,4 +1,10 @@
 export const pagesPath = {
+  "index_content": {
+    $url: (url?: { hash?: string }) => ({ pathname: '/index.content' as const, hash: url?.hash })
+  },
+  "index_page": {
+    $url: (url?: { hash?: string }) => ({ pathname: '/index.page' as const, hash: url?.hash })
+  },
   $url: (url?: { hash?: string }) => ({ pathname: '/' as const, hash: url?.hash })
 }
 
