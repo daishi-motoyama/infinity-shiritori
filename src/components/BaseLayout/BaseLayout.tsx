@@ -29,18 +29,18 @@ export const BaseLayout = ({ children, footer, header }: Props) => {
 
 type ContentProps = {
   children: ReactNode
-  pb?: 0 | 24
-  pl?: 0 | 20
-  pr?: 0 | 20
-  pt?: 0 | 24
+  pb?: 0 | 3
+  pl?: 0 | 2.5
+  pr?: 0 | 2.5
+  pt?: 0 | 3
 }
 
 const Content = ({
   children,
-  pb = 24,
-  pl = 20,
-  pr = 20,
-  pt = 24,
+  pb = 3,
+  pl = 2.5,
+  pr = 2.5,
+  pt = 3,
 }: ContentProps) => {
   return (
     <Box pb={pb} pl={pl} pr={pr} pt={pt}>
